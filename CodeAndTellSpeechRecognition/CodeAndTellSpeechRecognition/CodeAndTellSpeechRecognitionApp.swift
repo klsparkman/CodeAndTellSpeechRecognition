@@ -14,6 +14,7 @@ struct CodeAndTellSpeechRecognitionApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(SpeechViewModel())
         }
     }
 }
