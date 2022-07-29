@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3515FF2D289362EA00AE264E /* CodeAndTellSpeechRecognitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515FF2C289362EA00AE264E /* CodeAndTellSpeechRecognitionApp.swift */; };
+		3515FF2F289362EA00AE264E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515FF2E289362EA00AE264E /* ContentView.swift */; };
+		3515FF31289362EF00AE264E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3515FF30289362EF00AE264E /* Assets.xcassets */; };
+		3515FF34289362EF00AE264E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3515FF33289362EF00AE264E /* Preview Assets.xcassets */; };
+		3515FF3E289362F000AE264E /* CodeAndTellSpeechRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515FF3D289362F000AE264E /* CodeAndTellSpeechRecognitionTests.swift */; };
+		3515FF48289362F000AE264E /* CodeAndTellSpeechRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515FF47289362F000AE264E /* CodeAndTellSpeechRecognitionUITests.swift */; };
+		3515FF4A289362F000AE264E /* CodeAndTellSpeechRecognitionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515FF49289362F000AE264E /* CodeAndTellSpeechRecognitionUITestsLaunchTests.swift */; };
+		357D96E528944A72005DCDD8 /* SpeechViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D96E428944A72005DCDD8 /* SpeechViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3515FF3A289362F000AE264E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3515FF21289362EA00AE264E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3515FF28289362EA00AE264E;
+			remoteInfo = CodeAndTellSpeechRecognition;
+		};
+		3515FF44289362F000AE264E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3515FF21289362EA00AE264E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3515FF28289362EA00AE264E;
+			remoteInfo = CodeAndTellSpeechRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3515FF29289362EA00AE264E /* CodeAndTellSpeechRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeAndTellSpeechRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3515FF2C289362EA00AE264E /* CodeAndTellSpeechRecognitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeAndTellSpeechRecognitionApp.swift; sourceTree = "<group>"; };
+		3515FF2E289362EA00AE264E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3515FF30289362EF00AE264E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3515FF33289362EF00AE264E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3515FF39289362F000AE264E /* CodeAndTellSpeechRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeAndTellSpeechRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3515FF3D289362F000AE264E /* CodeAndTellSpeechRecognitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeAndTellSpeechRecognitionTests.swift; sourceTree = "<group>"; };
+		3515FF43289362F000AE264E /* CodeAndTellSpeechRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeAndTellSpeechRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3515FF47289362F000AE264E /* CodeAndTellSpeechRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeAndTellSpeechRecognitionUITests.swift; sourceTree = "<group>"; };
+		3515FF49289362F000AE264E /* CodeAndTellSpeechRecognitionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeAndTellSpeechRecognitionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		357D96E428944A72005DCDD8 /* SpeechViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3515FF26289362EA00AE264E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3515FF36289362F000AE264E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3515FF40289362F000AE264E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3515FF20289362EA00AE264E = {
+			isa = PBXGroup;
+			children = (
+				3515FF2B289362EA00AE264E /* CodeAndTellSpeechRecognition */,
+				3515FF3C289362F000AE264E /* CodeAndTellSpeechRecognitionTests */,
+				3515FF46289362F000AE264E /* CodeAndTellSpeechRecognitionUITests */,
+				3515FF2A289362EA00AE264E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3515FF2A289362EA00AE264E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3515FF29289362EA00AE264E /* CodeAndTellSpeechRecognition.app */,
+				3515FF39289362F000AE264E /* CodeAndTellSpeechRecognitionTests.xctest */,
+				3515FF43289362F000AE264E /* CodeAndTellSpeechRecognitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3515FF2B289362EA00AE264E /* CodeAndTellSpeechRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				3515FF2C289362EA00AE264E /* CodeAndTellSpeechRecognitionApp.swift */,
+				3515FF2E289362EA00AE264E /* ContentView.swift */,
+				357D96E428944A72005DCDD8 /* SpeechViewModel.swift */,
+				3515FF32289362EF00AE264E /* Preview Content */,
+				3515FF30289362EF00AE264E /* Assets.xcassets */,
+			);
+			path = CodeAndTellSpeechRecognition;
+			sourceTree = "<group>";
+		};
+		3515FF32289362EF00AE264E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3515FF33289362EF00AE264E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3515FF3C289362F000AE264E /* CodeAndTellSpeechRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3515FF3D289362F000AE264E /* CodeAndTellSpeechRecognitionTests.swift */,
+			);
+			path = CodeAndTellSpeechRecognitionTests;
+			sourceTree = "<group>";
+		};
+		3515FF46289362F000AE264E /* CodeAndTellSpeechRecognitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3515FF47289362F000AE264E /* CodeAndTellSpeechRecognitionUITests.swift */,
+				3515FF49289362F000AE264E /* CodeAndTellSpeechRecognitionUITestsLaunchTests.swift */,
+			);
+			path = CodeAndTellSpeechRecognitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3515FF28289362EA00AE264E /* CodeAndTellSpeechRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3515FF4D289362F000AE264E /* Build configuration list for PBXNativeTarget "CodeAndTellSpeechRecognition" */;
+			buildPhases = (
+				3515FF25289362EA00AE264E /* Sources */,
+				3515FF26289362EA00AE264E /* Frameworks */,
+				3515FF27289362EA00AE264E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeAndTellSpeechRecognition;
+			productName = CodeAndTellSpeechRecognition;
+			productReference = 3515FF29289362EA00AE264E /* CodeAndTellSpeechRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3515FF38289362F000AE264E /* CodeAndTellSpeechRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3515FF50289362F000AE264E /* Build configuration list for PBXNativeTarget "CodeAndTellSpeechRecognitionTests" */;
+			buildPhases = (
+				3515FF35289362F000AE264E /* Sources */,
+				3515FF36289362F000AE264E /* Frameworks */,
+				3515FF37289362F000AE264E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3515FF3B289362F000AE264E /* PBXTargetDependency */,
+			);
+			name = CodeAndTellSpeechRecognitionTests;
+			productName = CodeAndTellSpeechRecognitionTests;
+			productReference = 3515FF39289362F000AE264E /* CodeAndTellSpeechRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3515FF42289362F000AE264E /* CodeAndTellSpeechRecognitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3515FF53289362F000AE264E /* Build configuration list for PBXNativeTarget "CodeAndTellSpeechRecognitionUITests" */;
+			buildPhases = (
+				3515FF3F289362F000AE264E /* Sources */,
+				3515FF40289362F000AE264E /* Frameworks */,
+				3515FF41289362F000AE264E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3515FF45289362F000AE264E /* PBXTargetDependency */,
+			);
+			name = CodeAndTellSpeechRecognitionUITests;
+			productName = CodeAndTellSpeechRecognitionUITests;
+			productReference = 3515FF43289362F000AE264E /* CodeAndTellSpeechRecognitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3515FF21289362EA00AE264E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3515FF28289362EA00AE264E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3515FF38289362F000AE264E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3515FF28289362EA00AE264E;
+					};
+					3515FF42289362F000AE264E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3515FF28289362EA00AE264E;
+					};
+				};
+			};
+			buildConfigurationList = 3515FF24289362EA00AE264E /* Build configuration list for PBXProject "CodeAndTellSpeechRecognition" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3515FF20289362EA00AE264E;
+			productRefGroup = 3515FF2A289362EA00AE264E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3515FF28289362EA00AE264E /* CodeAndTellSpeechRecognition */,
+				3515FF38289362F000AE264E /* CodeAndTellSpeechRecognitionTests */,
+				3515FF42289362F000AE264E /* CodeAndTellSpeechRecognitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3515FF27289362EA00AE264E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3515FF34289362EF00AE264E /* Preview Assets.xcassets in Resources */,
+				3515FF31289362EF00AE264E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3515FF37289362F000AE264E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3515FF41289362F000AE264E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3515FF25289362EA00AE264E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3515FF2F289362EA00AE264E /* ContentView.swift in Sources */,
+				357D96E528944A72005DCDD8 /* SpeechViewModel.swift in Sources */,
+				3515FF2D289362EA00AE264E /* CodeAndTellSpeechRecognitionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3515FF35289362F000AE264E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3515FF3E289362F000AE264E /* CodeAndTellSpeechRecognitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3515FF3F289362F000AE264E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3515FF4A289362F000AE264E /* CodeAndTellSpeechRecognitionUITestsLaunchTests.swift in Sources */,
+				3515FF48289362F000AE264E /* CodeAndTellSpeechRecognitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3515FF3B289362F000AE264E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3515FF28289362EA00AE264E /* CodeAndTellSpeechRecognition */;
+			targetProxy = 3515FF3A289362F000AE264E /* PBXContainerItemProxy */;
+		};
+		3515FF45289362F000AE264E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3515FF28289362EA00AE264E /* CodeAndTellSpeechRecognition */;
+			targetProxy = 3515FF44289362F000AE264E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3515FF4B289362F000AE264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3515FF4C289362F000AE264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3515FF4E289362F000AE264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CodeAndTellSpeechRecognition/Preview Content\"";
+				DEVELOPMENT_TEAM = 97JSCUVT38;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition will be used to deterrmine which words you speak into the device's microphone.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DMA.CodeAndTellSpeechRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3515FF4F289362F000AE264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CodeAndTellSpeechRecognition/Preview Content\"";
+				DEVELOPMENT_TEAM = 97JSCUVT38;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition will be used to deterrmine which words you speak into the device's microphone.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DMA.CodeAndTellSpeechRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3515FF51289362F000AE264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97JSCUVT38;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DMA.CodeAndTellSpeechRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeAndTellSpeechRecognition.app/CodeAndTellSpeechRecognition";
+			};
+			name = Debug;
+		};
+		3515FF52289362F000AE264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97JSCUVT38;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DMA.CodeAndTellSpeechRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeAndTellSpeechRecognition.app/CodeAndTellSpeechRecognition";
+			};
+			name = Release;
+		};
+		3515FF54289362F000AE264E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97JSCUVT38;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DMA.CodeAndTellSpeechRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodeAndTellSpeechRecognition;
+			};
+			name = Debug;
+		};
+		3515FF55289362F000AE264E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97JSCUVT38;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DMA.CodeAndTellSpeechRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodeAndTellSpeechRecognition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3515FF24289362EA00AE264E /* Build configuration list for PBXProject "CodeAndTellSpeechRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3515FF4B289362F000AE264E /* Debug */,
+				3515FF4C289362F000AE264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3515FF4D289362F000AE264E /* Build configuration list for PBXNativeTarget "CodeAndTellSpeechRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3515FF4E289362F000AE264E /* Debug */,
+				3515FF4F289362F000AE264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3515FF50289362F000AE264E /* Build configuration list for PBXNativeTarget "CodeAndTellSpeechRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3515FF51289362F000AE264E /* Debug */,
+				3515FF52289362F000AE264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3515FF53289362F000AE264E /* Build configuration list for PBXNativeTarget "CodeAndTellSpeechRecognitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3515FF54289362F000AE264E /* Debug */,
+				3515FF55289362F000AE264E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3515FF21289362EA00AE264E /* Project object */;
+}
